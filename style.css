@@ -28,10 +28,11 @@ ul {
   }
 
 img{
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+    min-width: 0;
+    width: 100%;
+    height: auto;
 }
+
 .media {
     display: flex;
     flex: 1;
@@ -44,7 +45,9 @@ img{
 }
 
 .media .image {
+    display: flex;
     flex: 1;
+    min-width: auto;
 }
 
 .footer {
