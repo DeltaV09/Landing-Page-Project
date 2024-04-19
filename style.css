@@ -189,4 +189,5 @@ blockquote footer {
 .footer div {
     flex: auto;
     text-align: center;
+    padding: 1.5em 0;
 }
